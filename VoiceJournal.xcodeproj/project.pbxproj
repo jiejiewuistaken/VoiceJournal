@@ -14,6 +14,7 @@
 		149522222E61F6AE002084FA /* VoiceJournalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 149522212E61F6AE002084FA /* VoiceJournalTests.swift */; };
 		1495222C2E61F6AE002084FA /* VoiceJournalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1495222B2E61F6AE002084FA /* VoiceJournalUITests.swift */; };
 		1495222E2E61F6AE002084FA /* VoiceJournalUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1495222D2E61F6AE002084FA /* VoiceJournalUITestsLaunchTests.swift */; };
+		1495223B2E61F8D1002084FA /* VoiceRecorderManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1495223A2E61F8D1002084FA /* VoiceRecorderManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		149522272E61F6AE002084FA /* VoiceJournalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VoiceJournalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1495222B2E61F6AE002084FA /* VoiceJournalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceJournalUITests.swift; sourceTree = "<group>"; };
 		1495222D2E61F6AE002084FA /* VoiceJournalUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceJournalUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1495223A2E61F8D1002084FA /* VoiceRecorderManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceRecorderManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 				149522122E61F6AD002084FA /* ContentView.swift */,
 				149522142E61F6AE002084FA /* Assets.xcassets */,
 				149522162E61F6AE002084FA /* Preview Content */,
+				1495223A2E61F8D1002084FA /* VoiceRecorderManager.swift */,
 			);
 			path = VoiceJournal;
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 			files = (
 				149522132E61F6AD002084FA /* ContentView.swift in Sources */,
 				149522112E61F6AD002084FA /* VoiceJournalApp.swift in Sources */,
+				1495223B2E61F8D1002084FA /* VoiceRecorderManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -419,6 +423,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"VoiceJournal/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -447,6 +452,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"VoiceJournal/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
